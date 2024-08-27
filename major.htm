@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    
+   
+
+
+<style>
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Adding a background color for better contrast */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    flex: 1;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    /* background-color: #73c4e6; */
+    color: white;
+}
+
+.content {
+    padding: 20px;
+    text-align: right;
+    color: white;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://as1.ftcdn.net/v2/jpg/04/95/91/54/1000_F_495915405_piabmtcReOvvcHrmTWvY0Y1WHrN0g0ge.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.box {
+            border: 2px solid #4CAF50; /* Green border */
+            padding: 20px;
+            width: 100%; /* Full width */
+            height: 200px; /* Increased height */
+            text-align: center; /* Center the text */
+            background-color: #f9f9f9; /* Light grey background */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+            box-sizing: border-box; /* Include border in width calculation */
+            display: flex; /* Flexbox for centering */
+            align-items: center; /* Vertically center the content */
+            justify-content: center; /* Horizontally center the content */
+        }
+        .box a {
+            text-decoration: none; /* Remove underline from link */
+            color: #4CAF50; /* Green text color */
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .box a:hover {
+            color: rgba(123, 184, 234, 0.402); /* Darker green on hover */
+        }
+</style>
+</head>
+</div>
+<div class="navbar">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+
+  <a href="#contact">Contact</a>
+</div>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  
+  <h1 style="font-size:50px;" style="font-family: cursive;" style="text-decoration-style: wavy;">MindEase</h1>
+  <p>Mental health encompasses emotional, psychological, and social well-being. It influences how we think, feel, and act in our daily lives, and it also determines how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.</p>
+  </div><br><hr>
+  <div class="box">
+    <a href="https://forms.gle/your-google-form-link" target="_blank">How are you feeling today? Let us know by filling this short form.</a><br>
+  </div>
+</body>
+
+</html>
